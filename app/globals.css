@@ -30,6 +30,6 @@ body,
 @layer base {
   
   .text-outline{
-    -webkit-text-stroke: 2px #0B0B0B !important;
+    -webkit-text-stroke: 1px #0B0B0B !important;
   }
 }
