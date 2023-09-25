@@ -11,15 +11,15 @@ export const mediaSans = localFont({
 export const sfProDisplay = localFont({
   src: [
     {
-      path: "../public/fonts/sfprodisplayregular.otf",
-      weight: "400",
-      style: "normal",
-    },
-    {
       path: "../public/fonts/sfprodisplaylight.ttf",
       weight: "300",
       style: "normal",
     },
+    {
+      path: "../public/fonts/sfprodisplayregular.otf",
+      weight: "400",
+      style: "normal",
+    }
   ],
   variable: '--font-sp-pro-display'
 });
