@@ -16,7 +16,7 @@ export const sfProDisplay = localFont({
       style: "normal",
     },
     {
-      path: "../public/fonts/sfprodisplayregular.OTF",
+      path: "../public/fonts/SFPRODISPLAYREGULAR.OTF",
       weight: "400",
       style: "normal",
     }
