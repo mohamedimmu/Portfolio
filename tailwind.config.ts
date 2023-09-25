@@ -13,7 +13,18 @@ const config: Config = {
         content: ["Sfprodisplay", "Arial", "sans-serif"],
       },
       colors: {
-        "custom-black": "#333",
+        "custom-black": "#1b1b1b",
+        "custom-grey": "#333333",
+        "accent-color-red": "#fc3e6b",
+        "accent-color-blue": "#1daafc",
+        "accent-color-yellow": "#fda632"
+      },
+      backgroundColor: {
+        "custom-black": "#1b1b1b",
+        "custom-grey": "#333333",
+        "accent-color-red": "#fc3e6b",
+        "accent-color-blue": "#1daafc",
+        "accent-color-yellow": "#fda632"
       }
     },
   },
