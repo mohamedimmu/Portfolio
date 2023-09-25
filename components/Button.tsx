@@ -14,6 +14,9 @@ const Button: React.FC<ButtonProps> = ({ title, secondaryBtn }) => {
       ${secondaryBtn ? "bg-transparent" : "bg-custom-black"}
       ${secondaryBtn ? "hover:bg-black" : "hover:bg-transparent"}
       ${secondaryBtn ? "hover:text-white" : "hover:text-custom-black"}
+      w-full
+      flex-grow
+      whitespace-nowrap
       transition
       duration-500
       border-custom-black

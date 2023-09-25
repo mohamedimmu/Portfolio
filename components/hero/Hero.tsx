@@ -4,7 +4,7 @@ import Button from "../Button";
 
 const Hero = () => {
   return (
-    <section className="h-[calc(100vh_-_84px)] mt-[84px] pt-8 w-fit mx-auto">
+    <section className="h-[calc(100vh_-_84px)] mt-[84px] pt-4 w-fit mx-auto flex flex-col justify-center">
       <p
         className="
         text-[28px]
@@ -12,6 +12,7 @@ const Hero = () => {
         text-center
         text-custom-grey
         font-light
+        pb-4
         "
       >
         👋, my name is Imran and I am a remote
@@ -24,7 +25,7 @@ const Hero = () => {
           items-center
           justify-center
           font-heading
-          pb-8"
+          pb-4"
       >
         <p className="peer text-[60px] sm:text-[90px] md:text-[120px] lg:text-[160px] xl:text-[180px] text-center text-transparent text-outline hover:text-black cursor-pointer transition duration-500 linear w-fit h-fit leading-none">
           & Designer
@@ -34,12 +35,12 @@ const Hero = () => {
         </p>
       </div>
 
-      <div className="flex items-center justify-between pb-4">
+      <div className="flex flex-col md:flex-row items-center gap-4 justify-between pb-8 md:pb-4 ">
         <p className="font-content font-light text-custom-grey text-[28px]">based in Chennai, India.</p>
         <SocialLinks />
       </div>
 
-      <div className="flex flex-row items-center mx-auto w-fit gap-4">
+      <div className="flex flex-col md:flex-row items-center justify-center gap-4 mx-auto w-full md:w-fit">
         <Button title="See my creations" />
         <Button title="Let's collaborate" secondaryBtn />
       </div>
