@@ -15,11 +15,11 @@ export const sfProDisplay = localFont({
       weight: "300",
       style: "normal",
     },
-    // {
-    //   path: "../public/fonts/SFPRODISPLAYREGULAR.OTF",
-    //   weight: "400",
-    //   style: "normal",
-    // }
+    {
+      path: "../public/fonts/sfprodisplayregular.otf",
+      weight: "400",
+      style: "normal",
+    }
   ],
   variable: '--font-sp-pro-display'
 });
