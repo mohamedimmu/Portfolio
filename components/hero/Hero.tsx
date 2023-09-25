@@ -12,6 +12,7 @@ const Hero = () => {
         text-center
         text-custom-grey
         font-light
+        font-content
         pb-4
         "
       >

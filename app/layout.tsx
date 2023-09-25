@@ -5,6 +5,7 @@ import localFont from "next/font/local";
 
 export const mediaSans = localFont({
   src: "../public/fonts/mediasanssemicondensed.otf",
+  variable: '--font-media-sans-semicondensed'
 });
 
 export const sfProDisplay = localFont({
@@ -20,6 +21,7 @@ export const sfProDisplay = localFont({
       style: "normal",
     },
   ],
+  variable: '--font-sp-pro-display'
 });
 
 export const metadata: Metadata = {
@@ -34,7 +36,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={sfProDisplay.className}>
+      <body className={`${mediaSans.variable} ${sfProDisplay.variable} font-sans`}>
         <Navbar />
         {children}
       </body>

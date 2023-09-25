@@ -9,8 +9,8 @@ const config: Config = {
   theme: {
     extend: {
       fontFamily: {
-        heading: ["Media Sans Semicondensed", "Impact", "sans-serif"],
-        content: ["Sfprodisplay", "Arial", "sans-serif"],
+        heading: ["var(--font-media-sans-semicondensed)", "Impact", "sans-serif"],
+        content: ["var(--font-sp-pro-display)", "Arial", "sans-serif"],
       },
       colors: {
         "custom-black": "#1b1b1b",

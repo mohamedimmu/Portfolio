@@ -22,6 +22,7 @@ const Button: React.FC<ButtonProps> = ({ title, secondaryBtn }) => {
       border-custom-black
       py-2 
       px-4
+      font-content
       font-light
       text-base
       rounded-md

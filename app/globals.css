@@ -12,7 +12,7 @@ body{
   color: #1B1B1B;
 }
 
-@font-face {
+/* @font-face {
   font-family: "Media Sans Semicondensed";
   src: url("../public/fonts/mediasanssemicondensed.otf");
   font-weight: 400;
@@ -29,7 +29,7 @@ body{
   font-family: "Sfprodisplay";
   src: url("../public/fonts/sfprodisplaylight.ttf");
   font-weight: 300;
-}
+} */
 
 @layer base {
   .text-outline {

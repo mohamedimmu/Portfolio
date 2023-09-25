@@ -8,7 +8,7 @@ import { MdOutlineMenu } from "react-icons/md"
 const Menu = () => {
   return (
     <nav>
-      <ul className="hidden md:flex flex-row gap-8 items-center justify-center">
+      <ul className="hidden md:flex flex-row gap-8 items-center justify-center font-content">
         {navLink.map((link) => (
           <li key={link.name} >
             <Link
