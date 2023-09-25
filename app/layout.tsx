@@ -26,7 +26,7 @@ export const sfProDisplay = localFont({
 
 export const metadata: Metadata = {
   title: "Mohamed Imran - Remote Developer & Designer",
-  description: "Freelance Developer & Designer",
+  description: "Remote Developer & Designer",
 };
 
 export default function RootLayout({
